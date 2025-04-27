@@ -1,0 +1,31 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Clock Container Styling */
+.clock-container {
+    background-color: #ffffff;
+    padding: 40px 70px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Clock Text Styling */
+#clock {
+    font-size: 4rem;
+    color: #333333;
+    letter-spacing: 2px;
+}
